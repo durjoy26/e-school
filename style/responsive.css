@@ -1,0 +1,20 @@
+/* =====================================
+for mobile
+======================================== */
+
+@media (max-width: 576px) { 
+    .col-md-4{
+        order: 3;
+    }
+    .col-md-8{
+        order: 2;
+    }
+    .nav-item {
+        text-align: center;
+        margin-left: 0;
+    }
+    .signUp {
+        display: flex;
+        justify-content: center;
+    }
+ }
