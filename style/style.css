@@ -153,3 +153,24 @@ h1.headding {
 .img-box {
     margin-right: 20px;
 }
+#menuArea{
+    background-color: #282531;
+    color: #fff;
+}
+.menu{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.col-md-4 ul li{
+    list-style: none;
+    font-weight: 100;
+}
+.col-md-4 ul .bold{
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+}
+footer .container{
+    padding-bottom: 5px;
+}

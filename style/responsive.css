@@ -31,7 +31,15 @@ for mobile
         margin-right: 0px;
         margin-bottom: 20px;
     }
+    .footer-links{
+        text-align: center;
+    }
 }
+
+/* =================================
+extra responsive css
+==================================== */
+
 @media (max-width: 767px) { 
     .col-md-3.col-sm-6 {
         margin-bottom: 20px;
