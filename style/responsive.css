@@ -34,6 +34,9 @@ for mobile
     .footer-links{
         text-align: center;
     }
+    .footer-links ul{
+        padding-left: 0;
+    }
 }
 
 /* =================================
