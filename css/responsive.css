@@ -1,0 +1,139 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 767px) {
+    .col-7 {
+        align-items: center;
+        display: flex;
+    }
+    #banner h1 {
+        font-size: 26px;
+    }
+    .text {
+        font-size: 13px;
+        line-height: 21px;
+        margin-bottom: -6px;
+    }
+    #banner .text{
+        position: relative;
+        visibility: hidden;
+    }
+    #banner .text::after{
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.";
+        position: absolute;
+        visibility: visible;
+        left: 0;
+        top: 0;
+    }
+    
+    #story .col-3{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    #banner .row {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #banner .row .col-5, .col-7{
+        width: 100%;
+    }
+    #banner .row .col-5 .d-flex.flex-column {
+        align-items: center;
+        width: 100%;
+        margin-top: 30px;
+    }
+    #banner .text {
+        margin-bottom: 30px;
+    }
+    #courses .col-4 {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .width {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #testimonial .col-3 {
+        margin: auto;
+        justify-content: center;
+    }
+    #testimonial .col-9 {
+        margin: auto;
+        width: 90%;
+    }
+    #testimonial .col-9 p {
+        margin: 0px;
+        text-align: center;
+    }
+    #contact .row {
+        justify-content: center;
+    }
+    #contact .col-5 {
+        width: 95%;
+    }
+    #contact .col-5 p {
+        text-align: center;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 768px) and (max-width:992px) {
+    #story .img-fluid {
+        width: 60px;
+    }
+    #story h4 {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-size: 12px;
+    }
+    #story .text {
+        font-size: 12px;
+    }
+    #courses .button {
+        width: 45%;
+        font-size: 13px;
+    }
+    #courses .card-footer small {
+        font-size: 11px;
+    }
+    #courses h5 {
+        font-size: 17px;
+    }
+    #courses p {
+        font-size: 15px;
+    }
+    .width {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #testimonial .col-3 {
+        margin: auto;
+        justify-content: center;
+    }
+    #testimonial .col-9 {
+        margin: auto;
+        width: 90%;
+    }
+    #testimonial .col-9 p {
+        margin: 0px;
+        text-align: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

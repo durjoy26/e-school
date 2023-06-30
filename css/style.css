@@ -1,0 +1,174 @@
+#nav{
+    background-color: #F0FFF0;
+}
+.navbar{
+    background-color: #F0FFF0 !important;
+}
+.img-fluid {
+    width: 100px;
+}
+a.nav-link {
+    margin-right: 10px;
+}
+.button {
+    background-color: #21B573;
+    color: #fff;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 84px;
+    border-radius: 17px;
+    margin-right: 0px;
+    text-decoration: none;
+}
+#banner .button {
+    margin: 0px;
+    text-decoration: none;
+    width: 100px;
+}
+#banner{
+    background-color: #F0FFF0;
+}
+#banner .row {
+    padding: 50px 0px;
+}
+#banner h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+#banner span {
+    color: #21B573;
+}
+#banner img {
+    padding-right: 30px;
+}
+.link-text{
+    color: #FD511A;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+    width: fit-content;
+}
+.link-text:hover{
+    text-decoration: underline;
+}
+.text {
+    font-size: 14px;
+    color: #666;
+    line-height: 25px;
+    margin: 20px 0px;
+}
+#story{
+    margin: 50px auto;
+}
+.box {
+    border-radius: 5px;
+    width: 84%;
+    background-color: #F8FFFB;
+    padding: 20px;
+}
+.box-2{
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 0px #b3b3b3;
+}
+#story h4 {
+    margin-top: 20px;
+}
+#story .text {
+    margin: 0px;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+li.nav-item {
+    margin: auto;
+}
+#courses .button {
+    margin-right: auto;
+    margin-left: 0px;
+    width: 40%;
+}
+#courses img {
+    width: 90%;
+    margin: auto;
+    padding-top: 17px;
+}
+#courses .card-footer {
+    background-color: #fff;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+#courses .card-footer i{
+    padding-right: 7px;
+}
+#courses .card {
+    border: none;
+    box-shadow: 0px 0px 20px 0px #9f9f9f;
+}
+#courses{
+    margin: 80px auto;
+}
+#courses h1 {
+    text-align: center;
+    font-weight: 700;
+    color: #413960;
+    margin-bottom: 26px;
+}
+#courses small {
+    color: #585859;
+    font-weight: 600;
+}
+#testimonial {
+    margin-bottom: 35px;
+}
+#testimonial h1 {
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 26px;
+}
+.width {
+    width: 75%;
+    margin: auto;
+}
+#testimonial .col-3 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 110px;
+}
+#testimonial .col-9 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 110px;
+}
+#testimonial .col-9 p{
+    margin: 0px;
+    margin-left: 30px;
+}
+#contact{
+    background-color: #282531;
+    color: #fff;
+    padding: 25px 0px;
+}
+#contact ul {
+    list-style: none;
+    font-weight: 200;
+}
+#contact ul li:nth-child(1) {
+    font-weight: 700;
+}
+#footer{
+    background-color: #282531;
+}
+#footer p {
+    text-align: center;
+    font-weight: 200;
+    color: #fff;
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+}
